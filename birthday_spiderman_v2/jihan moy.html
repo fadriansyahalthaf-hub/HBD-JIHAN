@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Little Something For You ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<section class="page active" id="p1">
+  <div class="web web1"></div><div class="web web2"></div>
+  <div class="mini-spider spider-a">🕷️</div>
+  <div class="disco">✦</div>
+  <div class="photo-stack">
+    <div class="fake-photo">🕷️<span>6</span></div>
+    <div class="ticket">💌</div>
+  </div>
+  <div class="stars">★</div>
+  <div class="hero">
+    <h1>I have something<br>special for you</h1>
+    <button onclick="next('p2')">open the gift</button>
+  </div>
+</section>
+
+<section class="page" id="p2">
+  <div class="web web1"></div><div class="web web2"></div>
+  <div class="mini-spider spider-a">🕷️</div>
+  <div class="stars">★</div>
+  <div class="hero">
+    <h1>Before that,<br>start the game first!</h1>
+    <p class="sub">ada satu misi kecil sebelum hadiahnya dibuka 👀</p>
+    <button onclick="loading()">start!</button>
+  </div>
+</section>
+
+<section class="page" id="p3">
+  <div class="web web1"></div><div class="web web2"></div>
+  <div class="loader">
+    <h1>loading...</h1>
+    <div class="bar"><i id="bar"></i></div>
+    <b id="pct">0%</b>
+  </div>
+</section>
+
+<section class="page game" id="p4">
+  <div class="game-title">
+    <h1>Catch The Spider!!</h1>
+    <div><span id="lives">♥ ♥ ♥</span> <strong>Score: <span id="score">0</span> / 100</strong></div>
+  </div>
+  <button class="target" id="target" onclick="catchSpider()">🕷️</button>
+  <small>Klik laba-labanya sampai score 100!</small>
+</section>
+
+<section class="page" id="p5">
+  <div class="web web1"></div><div class="web web2"></div>
+  <div class="cake">🍰</div>
+  <div class="card">
+    <h1>Happy Birthday!!</h1>
+    <p>
+      happy birthday JIHAN MOY! semoga di umur yang baru ini everything goes well for u.
+      semoga apa pun yang lagi kamu usahain bisa berjalan lancar, banyak good things
+      yang datang, dan semoga tahun ini maupun tahun-tahun yang akan datang selalu
+      punya banyak hal baik buat kamu. semoga kamu selalu sehat, dimudahin dalam
+      setiap urusan, and surrounded by people who genuinely care about u.
+      enjoy your day and hopefully this new chapter brings u a lot of happiness,
+      good experiences, and things worth remembering :p
+    </p>
+    <button onclick="next('p6'); confetti()">lanjut</button>
+  </div>
+</section>
+
+<section class="page" id="p6">
+  <div class="web web1"></div><div class="web web2"></div>
+  <div class="final-card">
+    <p>
+      anyway, thank u for being someone i've gotten to know and share a lot of
+      things with. semoga hari ini bisa jadi salah satu hari yang kamu nikmati
+      tanpa banyak mikirin apa-apa, have a good one.
+      maybe some things don't really change, even when time does...
+    </p>
+    <p class="end">once again, hbd jihan moy. it's been a while,<br>would be nice to see you again haha!</p>
+    <div class="heart">♥</div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
